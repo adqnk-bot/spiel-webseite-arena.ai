@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #2a2523;
+  font-family: system-ui, sans-serif;
+}
+
+/* Das Spiel füllt die ganze Seite aus. */
+#game-root {
+  position: fixed;
+  inset: 0;
+}
